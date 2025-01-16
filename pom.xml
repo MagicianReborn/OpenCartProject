@@ -42,7 +42,6 @@
       <artifactId>selenium-java</artifactId>
       <version>4.27.0</version>
     </dependency>
-
   </dependencies>
 
   <build>
@@ -58,6 +57,5 @@
         </configuration>
       </plugin>
     </plugins>
-
   </build>
 </project>
