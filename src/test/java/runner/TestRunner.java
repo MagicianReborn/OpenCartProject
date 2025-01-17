@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = "src/test/resources/features",
-glue = {"org.opencart.stepdefinition"},
+glue = {"org.opencart.stepdefinition"}, tags = "@SmokeTest",
         plugin = {"pretty","html:target/cucumber-reports","json:target/cucumber.json"},
         monochrome = true,
         publish = true)

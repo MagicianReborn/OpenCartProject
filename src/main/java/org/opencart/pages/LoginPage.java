@@ -18,6 +18,7 @@ public class LoginPage {
 
     // Constructor
     public LoginPage(WebDriver driver) {
+
         this.driver = driver;
     }
 
@@ -43,10 +44,12 @@ public class LoginPage {
     }
 
     public boolean checkForgotPwdLink(){
+
         return driver.findElement(forgottenPasswordLinkLocator).isDisplayed();
     }
 
     public boolean checkLogoutLink(){
+
         return driver.findElement(logoutLinkLocator).isDisplayed();
     }
 

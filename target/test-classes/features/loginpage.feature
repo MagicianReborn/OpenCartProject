@@ -6,7 +6,7 @@ Feature: Login Functionality for OpenCart E-commerce Website
 
   Background:
     Given I am on the OpenCart login page
-
+@SmokeTest
   Scenario: Successful login with valid credentials
     Given I have entered a valid username and password
     When I click on the login button
